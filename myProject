@@ -5,3 +5,5 @@ git add
 mkdir -p ~/Dropbox/Git 
 cd ~/Dropbox/Git 
 git init --bare myProject.git
+cd ~/myProject 
+git remote add origin ~/Dropbox/Git/myProject.git
