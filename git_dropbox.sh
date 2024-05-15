@@ -1,2 +1,4 @@
-cd /Dropbox/git
-git init --bare test.git
+mkdir -p ~/myProject 
+cd ~/myProject 
+git init 
+git add
