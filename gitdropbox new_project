@@ -1,1 +1,19 @@
 
+mkdir -p ~/dev/$1
+cd ~/dev/$1
+git init
+git add .
+echo "project $1 created"
+
+mkdir -p ~/Dropbox/Git
+cd ~/Dropbox/Git
+git init --bare $1.git
+
+cd ~/dev/$1
+git remote add origin ~/Dropbox/Git/$1.git
+echo >> "README.md"
+git add *
+git commit -m "first commit"
+git push -u origin master
+
+echo "repo $1 created and pushed in your dropbox"
