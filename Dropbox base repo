@@ -1,3 +1,0 @@
-mkdir -p ~/Dropbox/Git 
-cd ~/Dropbox/Git 
-git init --bare myProject.git
