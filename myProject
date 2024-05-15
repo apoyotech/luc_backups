@@ -1,4 +1,4 @@
-mkdir -p ~/myProject 
+git push -u origin mastermkdir -p ~/myProject 
 cd ~/myProject 
 git init 
 git add
@@ -10,3 +10,4 @@ git remote add origin ~/Dropbox/Git/myProject.git
 echo >> "README.md" 
 git add .
 git commit -m "first commit"
+git push -u origin master
