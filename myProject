@@ -7,3 +7,6 @@ cd ~/Dropbox/Git
 git init --bare myProject.git
 cd ~/myProject 
 git remote add origin ~/Dropbox/Git/myProject.git
+echo >> "README.md" 
+git add .
+git commit -m "first commit"
