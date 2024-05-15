@@ -2,3 +2,6 @@ mkdir -p ~/myProject
 cd ~/myProject 
 git init 
 git add
+mkdir -p ~/Dropbox/Git 
+cd ~/Dropbox/Git 
+git init --bare myProject.git
